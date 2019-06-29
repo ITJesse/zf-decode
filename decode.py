@@ -28,4 +28,4 @@ if __name__ == '__main__':
       print "Usage: crackZF.py passwdhash"
       sys.exit(1)
     else:
-      print "Password:", crack_zhengfang( pwdhash=sys.argv[1], key="Encrypt01"
+      print "Password:", crack_zhengfang(pwdhash=sys.argv[1], key="Encrypt01")
